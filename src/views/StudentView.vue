@@ -7,7 +7,6 @@
         </h1>
       </div>
     </template>
-    <pre>{{ model }}</pre>
     <form @submit.prevent="saveStudent">
       <div class="shadow sm:rounded-md sm:overflow-hidden">
         <!-- Student Fields -->

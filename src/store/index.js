@@ -120,11 +120,11 @@ const store = createStore({
     },
   },
   mutations: {
-    setCurrentStudyLoainng: (state, loading) => {
+    setCurrentStudentLoading: (state, loading) => {
       state.currentStudent.loading = loading
     },
 
-    setCurrentStudy: (state, student) => {
+    setCurrentStudent: (state, student) => {
       state.currentStudent.data = student.data
     },
 
